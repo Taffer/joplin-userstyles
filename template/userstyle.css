@@ -24,6 +24,10 @@ h2 {
 h3 {
 }
 
+div#rendered-md > h1:first-child {
+    /* Title element. */
+}
+
 /* Block elements: */
 abbr {
 }

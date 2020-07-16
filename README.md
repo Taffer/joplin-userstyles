@@ -11,6 +11,8 @@ documentation on what CSS the note renderer supports, so here we are.
 
 ## Contents
 
+* `all-the-markdown.md` - An ugly, sloppy example of all (well, most) of the
+  Markdown that Joplin supports. Useful for demonstrating new styles.
 * `template` - A blank CSS template with all (?) of the elements that appear
   in the Joplin Markdown renderer.
 * `userstyle-onenote` - A `userstyle.css` that mimics elements of OneNote's
@@ -28,7 +30,12 @@ Here's what I'd like:
 
 If you want your `userstyle.css` to be covered by a different license, that's
 totally fine, include the relevant info _inside a comment_ or provide a link in
-a comment, and I'll point it out as an exception in the [License] section here.
+a comment, and I'll point it out as an exception in the [License](#license)
+section here.
+
+Also happy to accept pull requests that do the right thing (put your style in
+a descriptively named directory, add a description in the [Contents](#contents)
+section.)
 
 ## License
 

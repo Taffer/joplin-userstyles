@@ -1,0 +1,96 @@
+/* For styling the rendered Markdown in Joplin.
+ *
+ * This is a blank CSS template listing/documenting the various elements
+ * found in a Joplin Markdown renderer. Add your own CSS styling!
+ *
+ * https://github.com/Taffer/joplin-userstyles
+ */
+
+div#rendered-md {
+    /* Root of the rendered Markdown. If you're going to use Mermaid diagrams,
+     * you probably want to use a white background.
+     */
+    color: black;
+    background-color: white;
+}
+
+/* Headings: */
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+/* Block elements: */
+abbr {
+}
+
+blockquote {
+}
+
+caption {
+}
+
+dd {
+}
+
+dl {
+}
+
+dt {
+}
+
+hr {
+}
+
+li {
+}
+
+ol {
+}
+
+p {
+}
+
+pre {
+}
+
+table {
+}
+
+tbody {
+}
+
+td {
+}
+
+th {
+}
+
+thead {
+}
+
+tr {
+}
+
+ul {
+}
+
+/* Inline elements: */
+a {
+}
+
+input[type="checkbox"] {
+}
+
+mark {
+}
+
+sub {
+}
+
+sup {
+}

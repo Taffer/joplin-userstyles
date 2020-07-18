@@ -1,0 +1,48 @@
+/* From Tatoosh:
+ */
+
+  h1 {
+    color: white;
+    font-weight: 300;
+    background-color: #414650;
+    width: 100%;
+    border: 3px solid  #414650;
+  }
+
+  h2 {
+    color: white;
+    font-weight: 400;
+    background-color: #414650;
+    width: 100%;
+    border: 2px solid  #414650;
+  }
+
+
+  h3 {
+    color: white;
+    font-weight: 150;
+    background-color: #606776;
+  }
+
+  h4 {
+    color: black;
+    font-weight: 100;
+    width: 100%;
+    text-decoration: underline;
+  }
+
+
+  .code,
+  .inline-code {
+    margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+  }
+
+  .inline-code{
+    color: #37684b !important;
+    background-color: #f7f7f7;
+  }

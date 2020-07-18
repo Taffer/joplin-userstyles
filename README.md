@@ -9,10 +9,19 @@ Microsoft's OneNote when I switched to Linux on my laptop.
 I don't really like the way it renders notes though, and I couldn't find any
 documentation on what CSS the note renderer supports, so here we are.
 
+There's [a thread](https://discourse.joplinapp.org/t/share-your-css/1730) on
+the Joplin forums where people have shared their `userstyle.css` styles.
+
+The thread styles and a pile of other useful Joplin resources can be found on
+[kot-behemoth's Awesome Joplin](https://github.com/kot-behemoth/awesome-joplin)
+page.
+
 ## Contents
 
 * `all-the-markdown.md` - An ugly, sloppy example of all (well, most) of the
   Markdown that Joplin supports. Useful for demonstrating new styles.
+* `forum` - A collection of `userstyle.css` and `userchrome.css` from the
+  "Share your CSS" thread on the Joplin forums.
 * `template` - A blank CSS template with all (?) of the elements that appear
   in the Joplin Markdown renderer.
 * `userstyle-onenote` - A `userstyle.css` that mimics elements of OneNote's

@@ -1,0 +1,14 @@
+/* From lynn:
+ *
+ * After seeing Merlinuwe’s, my little tweaks in userstyle.css feel kinda lame,
+ * but I’m posting them anyway. :sunny: :smile:
+ *
+ * Mostly I just wanted cleaner fonts that I already work with in other
+ * programs. And I like a nice clean yellow highlight, and don’t particularly
+ * like the orangy color that seems to be the default.
+ */
+
+body { font-family: Calibri "Carlito Regular" sans-serif; }
+pre, code { font-family: Consolas "JetBrains Mono" Courier; }
+.highlight { background-color: yellow; }
+mark { background-color: yellow; }

@@ -1,0 +1,29 @@
+/* From etcSudoers:
+ *
+ * I like my list numbers to be bold, and I thought it might be nice to have
+ * them red as well.
+ */
+
+ol {
+margin: 0 0 1.5em;
+padding: 0;
+counter-reset: item;
+}
+
+ol > li {
+margin: 0;
+padding: 0 0 0 2em;
+list-style-type: none;
+counter-increment: item;
+}
+
+ol > li:before {
+float: left;
+width: auto;
+display: inline-block;
+width: 1em;
+padding-right: 0.5em;
+font-weight: bold;
+color: red;
+content: counter(item) ".";
+}

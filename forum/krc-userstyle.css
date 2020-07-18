@@ -1,0 +1,26 @@
+/* From krc:
+ */
+
+body, p, ul, ol, {
+font-family: ‘Open Sans’, sans-serif;
+font-size: 14px;
+}
+
+pre, code, .inline-code {
+font-family: ‘Inconsolata’, monospace;
+font-size: 14px;
+}
+
+h1 {
+font-weight: bold;
+font-size: 24px;
+border-bottom-style: none;
+margin-bottom: 0;
+padding-bottom: 0;
+line-height: 1;
+}
+
+ul {
+margin-left: 2em;
+line-height: 1.1;
+}

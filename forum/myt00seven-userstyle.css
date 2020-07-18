@@ -1,0 +1,161 @@
+/* From myt00seven:
+ *
+ * Let me share my Neon Midnight Mint themed userstyle.css with you guys! I
+ * spent quite some time to tune the color to a balance that I really like.
+ * After reading some of the css post above, I think I will also invest some
+ * time to change the color in the editor side in the future.
+ */
+
+body {
+  background-color: #212432;
+  color: #D6FFEF;
+  font-size: large;
+  /*font-family: "DFKai-SB", "KaiTi", "Times New Roman", "宋体", Times, serif;*/
+
+  margin:0;
+  p{margin:0}
+  ul{margin:0}
+  pre{margin:0}
+  span{margin:0}
+}
+
+a:link{
+  color: #4BBFEF;
+  text-decoration: underline;
+}
+
+b,
+em {
+color: #f1ce00;
+text-shadow: 0px 0px 2px #FF5E98, 0px 0px 5px rgba(255, 94, 152, 0.2);
+text-decoration: underline;
+}
+
+b,
+strong {
+font-weight: bold;
+color: #2AF500;
+text-shadow: 0px 0px 1px #2CFF00, 0px 0px 5px rgba(42, 245, 0, 0.3), 0px 0px 10px rgba(42, 245, 0, 0.2), 0px 0px 20px rgba(42, 245, 0, 0.1), 0px 0px 30px rgba(42, 245, 0, 0.05);
+}
+
+blockquote::before{
+  color: #FF9957;
+}
+
+blockquote {
+  color: #FF9957;
+}
+
+
+dl dt {
+padding: 0;
+margin-top: 16px;
+font-size: 1em;
+font-style: italic;
+font-weight: bold;
+}
+
+ul li{
+  background-color: #292D3E;
+  color: #85E785;
+}
+
+ul li li{
+  background-color: #343A4F;
+  color: #E4DB74;
+}
+
+ul li li li{
+  background-color: #565870;
+  color: #BF9AFF;
+}
+
+ul li li li li{
+  background-color: #565870;
+  color: #F2711D;
+}
+
+ul li li li li li{
+  background-color: #565870;
+  color: #4D9DFF;
+}
+
+body {
+  counter-reset: h1counter;
+}
+
+
+h1 { counter-reset: h2counter; margin: 0em}
+h2 { counter-reset: h3counter; margin: 0em}
+h3 { counter-reset: h4counter; margin: 0}
+h4 { counter-reset: h5counter; margin: 0}
+h5 { counter-reset: h6counter; margin: 0}
+h6 {}
+
+h1:before {
+    counter-increment: h1counter;
+    content: counter(h1counter) ".\0000a0\0000a0";
+}
+
+h2:before {
+    counter-increment: h2counter;
+    content: counter(h1counter) "." counter(h2counter) ".\0000a0\0000a0";
+}
+
+h3:before {
+    counter-increment: h3counter;
+    content: counter(h1counter) "." counter(h2counter) "." counter(h3counter) ".\0000a0\0000a0";
+}
+
+h4:before {
+    counter-increment: h4counter;
+    content: counter(h1counter) "." counter(h2counter) "." counter(h3counter) "." counter(h4counter) ".\0000a0\0000a0";
+}
+
+h5:before {
+    counter-increment: h5counter;
+    content: counter(h1counter) "." counter(h2counter) "." counter(h3counter) "." counter(h4counter) "." counter(h5counter) ".\0000a0\0000a0";
+}
+
+h6:before {
+    counter-increment: h6counter;
+    content: counter(h1counter) "." counter(h2counter) "." counter(h3counter) "." counter(h4counter) "." counter(h5counter) "." counter(h6counter) ".\0000a0\0000a0";
+}
+
+
+
+h1 {
+font-size: 2em;
+line-height: 1.2;
+background-color: #080808;
+color: #2FDEB6;
+border-bottom: 1px solid #eee;
+padding: 0 0em;
+text-shadow: 1px 1px 2px #1CA686;
+}
+
+
+h2 {
+font-size: 1.75em;
+line-height: 1.2;
+background-color: #080808;
+color: #3CDCBE;
+border-bottom: 1px solid #eee;
+padding: 0 1em;
+text-shadow: 1px 1px 2px #269983;
+
+}
+
+h3 {
+font-size: 1.5em;
+line-height: 1.2;
+padding: 0 2em;
+background-color: #080808;
+color: #84F0DB;
+text-shadow: 1px 1px 1px #58A697;
+}
+
+h4 {
+background-color: #080808;
+color: #AEF2E5;
+}

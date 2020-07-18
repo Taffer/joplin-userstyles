@@ -1,0 +1,504 @@
+/* From merlinuwe:
+ *
+ * Here is my userstyle.css, stolen from here and there and sometimes changed
+ * to my requirements … :wink:
+ */
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i');
+
+body {
+font-family : 'Open Sans', sans-serif;
+font-weight : 300;
+font-size : 12pt;
+line-height : 1.42em;
+color : #EEEEEE;
+background-color : #1D2024;
+}
+p a {
+border-bottom : 1px solid #453886;
+color : #453886;
+color : #FB667A;
+padding-bottom : 0.25em;
+text-decoration : none;
+}
+a:hover, a href:hover {
+background-image : url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+background-position : bottom;
+background-repeat : repeat-x;
+background-size : 10%;
+border-bottom : 0;
+padding-bottom : 0.3em;
+text-decoration : none;
+color : #FB667A;
+background-color : yellow;
+}
+kbd {
+color : #1D2024;
+background : #EEEEEE;
+font-weight : bold;
+letter-spacing : 0.1em;
+padding-left : 0.5em;
+padding-right : 0.5em;
+}
+blockquote q {
+background : #f9f9f9;
+border-left : 10px solid #ccc;
+margin : 1.5em 10px;
+padding : 0.5em 10px;
+quotes : "??" "??";
+line-height : 1em;
+color : darkred;
+}
+blockquote q:before {
+content : open-quote;
+color : navy;
+font : 1.5em/150% Georgia, serif;
+}
+blockquote q:after {
+content : close-quote;
+color : navy;
+font : 1.5em/250% Georgia, serif;
+}
+p[lang="de-DE"] {
+text-align : justify;
+hyphens : auto;
+background-color : red;
+}
+hr {
+width : 98%;
+height : 1px;
+margin : 12px auto;
+background : black;
+border : salmon solid 1px;
+border-radius : 5px;
+}
+p > a[href^="https://"], p > a[href^="http://"] {
+font-size : 1.0em;
+font-weight : 300;
+padding-top : 0;
+border : none;
+padding-right : 0;
+padding-left : 0.3em;
+line-height : 1em;
+font-family : 'courier new', sans-serif;
+border : none;
+color : salmon;
+}
+
+
+h1 {
+text-transform : uppercase;
+font-size : 1.3em;
+font-weight : 600;
+text-align : left;
+line-height : 1.3em;
+margin-top : 0em;
+padding-bottom : 0em;
+color : salmon;
+}
+h2, h3, h4, h5, h6 {
+font-size : 1.3em;
+font-weight : 400;
+text-align : left;
+line-height : 1.3em;
+padding-top : 1em;
+padding-bottom : 0em;
+color : salmon;
+}
+h1, h2, h3, h4, h5, h6 {
+width : 100%;
+}
+
+/*
+h1:after, h2:after, h3:after, h4:after, h5:after, h6:after {
+display : inline-block;
+margin : 0 0 8px 20px;
+height : 3px;
+content : " ";
+text-shadow : none;
+background-color : #999;
+width : 40px;
+}
+h1:before, h2:before, h3:before, h4:before, h5:before, h6:before {
+display : inline-block;
+margin : 0 20px 8px 0;
+height : 3px;
+content : " ";
+text-shadow : none;
+background-color : #999;
+width : 40px;
+}
+*/
+
+h2 a {
+font-weight : 700;
+text-transform : uppercase;
+color : #FB667A;
+text-decoration : none;
+}
+
+
+.blue {
+color : #185875;
+}
+.yellow {
+color : #FFF842;
+color : gold;
+}
+.container th h1 {
+font-weight : bold;
+font-size : 1.8em;
+text-align : left;
+color : #185875;
+color : navy;
+}
+.container td {
+font-weight : normal;
+font-size : 1em;
+box-shadow : 0 2px 2px -2px #0E1119;
+}
+.container {
+text-align : left;
+overflow : hidden;
+width : 80%;
+margin : 0 auto;
+display : table;
+padding : 0 0 8em 0;
+}
+.container td, .container th {
+padding-bottom : 2%;
+padding-top : 2%;
+padding-left : 2%;
+}
+.container tr:nth-child(odd) {
+background-color : #323C50;
+}
+.container tr:nth-child(even) {
+background-color : #2C3446;
+}
+.container th {
+background-color : #1F2739;
+background-color : lightblue;
+}
+.container td:first-child {
+color : #FB667A;
+}
+.container tr:hover {
+background-color : #464A52;
+box-shadow : 0 6px 6px -6px #0E1119;
+}
+.container td:hover {
+background-color : #FFF842;
+color : #403E10;
+font-weight : bold;
+box-shadow : -1px 1px #7F7C21, -2px 2px #7F7C21, -3px 3px #7F7C21, -4px 4px #7F7C21, -5px 5px #7F7C21, -6px 6px #7F7C21;
+transform : translate3d(6px,-6px,0);
+transition-delay : 0s;
+transition-duration : 0.4s;
+transition-property : all;
+}
+@media (max-width:800px) {
+.container td:nth-child(4), .container th:nth-child(4) {
+display : none;
+}
+}
+table {
+border : navy dotted 1px;
+border-collapse : collapse;
+width : 100%;
+}
+td {
+border : #999 solid 1px;
+padding : 0.1em 1em;
+background-color : #CEF6F5;
+color : #024457;
+}
+th {
+border : #999 solid 1px;
+padding : 0.1em 1em;
+background-color : #024457;
+color : #CEF6F5;
+}
+.alternative {
+background-color : #ddf;
+}
+.unterstreichen {
+text-decoration : underline dashed lime;
+}
+.durchstreichen {
+text-decoration : line-through;
+}
+
+
+
+
+/*
+body{
+  margin      : 0;
+  padding     : 1.5em;
+  font-family : Georgia,Utopia,Charter,serif;
+}
+*/
+
+.example{
+  margin-bottom : 1.5em;
+}
+
+input[type=checkbox]:not(old),
+input[type=radio   ]:not(old){
+  width     : 2em;
+  margin    : 0;
+  padding   : 0;
+  font-size : 1em;
+  opacity   : 0;
+}
+
+input[type=checkbox]:not(old) + label,
+input[type=radio   ]:not(old) + label{
+  display      : inline-block;
+  margin-left  : -2em;
+  line-height  : 1.5em;
+}
+
+input[type=checkbox]:not(old) + label > span,
+input[type=radio   ]:not(old) + label > span{
+  display          : inline-block;
+  width            : 0.875em;
+  height           : 0.875em;
+  margin           : 0.25em 0.5em 0.25em 0.25em;
+  border           : 0.0625em solid rgb(192,192,192);
+  border-radius    : 0.25em;
+  background       : rgb(224,224,224);
+  background-image :    -moz-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  background-image :     -ms-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  background-image :      -o-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  background-image : -webkit-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  background-image :         linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  vertical-align   : bottom;
+}
+
+input[type=checkbox]:not(old):checked + label > span,
+input[type=radio   ]:not(old):checked + label > span{
+  background-image :    -moz-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+  background-image :     -ms-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+  background-image :      -o-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+  background-image : -webkit-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+  background-image :         linear-gradient(rgb(224,224,224),rgb(240,240,240));
+}
+
+input[type=checkbox]:not(old):checked + label > span:before{
+  content     : '✓';
+  display     : block;
+  width       : 1em;
+  color       : green;
+  font-size   : 0.875em;
+  line-height : 1em;
+  text-align  : center;
+  text-shadow : 0 0 0.0714em rgb(115,153,77);
+  font-weight : bold;
+}
+
+input[type=radio]:not(old):checked +  label > span > span{
+  display          : block;
+  width            : 0.5em;
+  height           : 0.5em;
+
+  margin           : 0.125em;
+  border           : 0.0625em solid rgb(115,153,77);
+  border-radius    : 0.125em;
+  background       : rgb(153,204,102);
+  background-image :    -moz-linear-gradient(rgb(179,217,140),rgb(153,204,102));
+  background-image :     -ms-linear-gradient(rgb(179,217,140),rgb(153,204,102));
+  background-image :      -o-linear-gradient(rgb(179,217,140),rgb(153,204,102));
+  background-image : -webkit-linear-gradient(rgb(179,217,140),rgb(153,204,102));
+  background-image :         linear-gradient(rgb(179,217,140),rgb(153,204,102));
+}
+
+
+/** Abgewandelt aus Typora übernommen. initialize css counter
+https://philarcher.org/diary/2013/headingnumbers/
+*/
+
+body {counter-reset: h1}
+h1 {
+    counter-reset: h2
+}
+
+h2 {
+    counter-reset: h3
+}
+
+h3 {
+    counter-reset: h4
+}
+
+h4 {
+    counter-reset: h5
+}
+
+h5 {
+    counter-reset: h6
+}
+
+/** put counter result into headings */
+h1:before {
+    text-transform:uppercase;
+    margin-left: -0.5em;
+    counter-increment: h1;
+    content: counter(h1) "  "
+}
+
+h2:before {
+    counter-increment: h2;
+    content: counter(h1) "." counter(h2) " "
+}
+
+h3:before,
+h3.md-focus.md-heading:before /** override the default style for focused headings */ {
+    counter-increment: h3;
+    content: counter(h1) "." counter(h2) "." counter(h3) " "
+}
+
+h4:before,
+h4.md-focus.md-heading:before {
+    counter-increment: h4;
+    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) " "
+}
+
+h5:before,
+h5.md-focus.md-heading:before {
+    counter-increment: h5;
+    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) " "
+}
+
+h6:before,
+h6.md-focus.md-heading:before {
+    counter-increment: h6;
+    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) " "
+}
+
+/** override the default style for focused headings */
+h3.md-focus:before,
+h4.md-focus:before,
+h5.md-focus:before,
+h6.md-focus:before,
+h3.md-focus:before,
+h4.md-focus:before,
+h5.md-focus:before,
+h6.md-focus:before {
+    color: inherit;
+    border: inherit;
+    border-radius: inherit;
+    position: inherit;
+    left:initial;
+    float: none;
+    top:initial;
+    font-size: inherit;
+    padding-left: inherit;
+    padding-right: inherit;
+    vertical-align: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+
+
+/* Für Passworte, die nicht gleich jeder sehen soll. */
+/* Gleiche Farbe, wie der Hintergrund, der in dieser CSS definiert ist. */
+.hidden {
+  background: #1D2024;
+  color: #1D2024;
+  border-style: dashed;
+  border-color: yellow;
+  border-width: 1px;
+
+  transition: background 0.5s ease;
+}
+
+.hidden:hover {
+  background: yellow;
+}
+
+div.footnote, a:before  {
+
+border-top: solid salmon 1px;
+}
+
+/* Abstand der Fußnoten voneinander. */
+div.footnote, a  {
+margin-bottom: 0.5em;
+}
+
+/* Damit die Fußnoten (ganz unten) nicht gelb sind beim Drüberfahren. */
+div.footnote a:hover  {
+background-color: transparent;
+}
+
+.footnote  {
+margin-top: 0.5em;
+padding-left: 0.5cm;
+text-indent:-0.4cm;
+padding-top: 0.3em;
+padding-bottom: 0.3em;
+font-size: 0.9em;
+color: salmon;
+line-height: 100%;
+
+font-family: Garamond, serif;
+font-weight: 300;
+background-color: #101010;
+}
+
+/* Fußnoten im Text sollen salmon sein und eine Klammer haben. */
+sup:after {
+content: ")";
+color: salmon;
+}
+
+
+
+
+ol {
+    margin: 0 0 1.5em;
+    padding: 0;
+    counter-reset: item;
+}
+
+ol>li {
+    margin: 0;
+    padding: 0 0 0 2em;
+    list-style-type: none;
+    counter-increment: item;
+}
+
+ol>li:before {
+    color: salmon;
+    content: counter(item) ".";
+    display: inline-block;
+    float: left;
+    font-weight: bold;
+    padding-right: 0.5em;
+    width: 1em;
+}
+
+ul {
+    margin: 0 0 1.5em;
+    padding: 0 0 0 2em;
+    /* Remove default bullets */
+    list-style: none;
+}
+
+ul li::before {
+    color: salmon;
+    content: "\2022";
+    display: inline-block;
+    float: left;
+    font-weight: bold;
+    padding-right: 0.3em;
+    width: 1em;
+}
+
+mark {
+    background-color: orange;
+}

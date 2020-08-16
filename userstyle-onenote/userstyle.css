@@ -94,8 +94,7 @@ p {
 }
 
 pre {
-    /* This is an abomination, it should be a monospaced font. */
-    font-family: "Segoe UI", "Segoe UI Web", "Arial", "Verdana", sans-serif;
+    font-family: "Consolas", "JetBrains Mono Medium", monospaced;
     font-size: 9pt;
     overflow: visible;
 }
@@ -107,9 +106,11 @@ tbody {
 }
 
 td {
+    background-color: white;
 }
 
 th {
+    background-color: white !important;
 }
 
 thead {
@@ -125,6 +126,10 @@ ul {
 a {
 }
 
+code {
+    font-family: "Consolas", "JetBrains Mono Medium", monospaced;
+}
+
 input[type="checkbox"] {
 }
 
@@ -135,4 +140,34 @@ sub {
 }
 
 sup {
+}
+
+/* Mermaid charts: */
+:root {
+    /*--mermaid-font-family: "Bahnschrift SemiCondensed" !important;*/
+    /* sets mermaid font variable */
+}
+
+path.path {
+    /*stroke: red !important;*/
+    /* sets line colour for the lines joining nodes*/
+}
+
+rect.label-container,
+polygon.label-container,
+circle.label-container,
+ellipse.label-container {
+    /*fill: gold !important;*/
+    /* sets fill color for nodes*/
+    /*stroke: green !important;*/
+    /* sets line color for nodes*/
+    /*stroke-width: 2px !important;*/
+    /* sets line width for nodes*/
+}
+
+span.edgeLabel {
+    /*background-color: blue !important;*/
+    /* sets background color for text boxes */
+    /*color: white !important;*/
+    /* sets font color for text boxes */
 }

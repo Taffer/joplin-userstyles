@@ -36,23 +36,41 @@ More styles from the thread:
 
 ### The Light Styles
 
+betternote:
+
 ![betternote's user style](betternote-userstyle.png "Preview of betternote's user style for Joplin")
+
+davidpoza:
 
 ![davidpoza's user style](davidpoza-userstyle.png "Preview of davidpoza's user style for Joplin")
 
+etcSudoers:
+
 ![etcSudoers' user style](etcSudoers-userstyle.png "Preview of etcSudoers' user style for Joplin")
+
+krc:
 
 ![krc's user style](krc-userstyle.png "Preview of krc's user style for Joplin")
 
+lynn:
+
 ![lynn's user style](lynn-userstyle.png "Preview of lynn's user style for Joplin")
+
+tatoosh:
 
 ![tatoosh's user style](tatoosh-userstyle.png "Preview of tatoosh's user style for Joplin")
 
 ### The Dark Styles
 
+merlinuwe:
+
 ![merlinuwe's user style](merlinuwe-userstyle.png "Preview of merlineuwe's user style for Joplin")
 
+myt00seven:
+
 ![myt00seven's user style](myt00seven-userstyle.png "Preview of myt00seven's user style for Joplin")
+
+zblesk:
 
 ![zblesk's user style](zblesk-userstyle.png "Preview of zblesk's user style for Joplin")
 

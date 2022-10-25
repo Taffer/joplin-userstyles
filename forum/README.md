@@ -34,6 +34,28 @@ More styles from the thread:
 * [uxamanda's](https://github.com/amandamcg/joplin-theme) amazing work
 * [xplosionmind's](https://github.com/xplosionmind/joplin-theme)
 
+### The Light Styles
+
+![betternote's user style](betternote-userstyle.png "Preview of betternote's user style for Joplin")
+
+![davidpoza's user style](davidpoza-userstyle.png "Preview of davidpoza's user style for Joplin")
+
+![etcSudoers' user style](etcSudoers-userstyle.png "Preview of etcSudoers' user style for Joplin")
+
+![krc's user style](krc-userstyle.png "Preview of krc's user style for Joplin")
+
+![lynn's user style](lynn-userstyle.png "Preview of lynn's user style for Joplin")
+
+![tatoosh's user style](tatoosh-userstyle.png "Preview of tatoosh's user style for Joplin")
+
+### The Dark Styles
+
+![merlinuwe's user style](merlinuwe-userstyle.png "Preview of merlineuwe's user style for Joplin")
+
+![myt00seven's user style](myt00seven-userstyle.png "Preview of myt00seven's user style for Joplin")
+
+![zblesk's user style](zblesk-userstyle.png "Preview of zblesk's user style for Joplin")
+
 ## License
 
 I have no idea. These were publicly posted on the forums in a thread called
